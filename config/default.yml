@@ -56,7 +56,7 @@ application:
   googleOauth:
     clientId: '1005568560502-6hm16lef8oh46hr2d98vf2ohlnj4nfhq.apps.googleusercontent.com'
     authorizedRedirects:
-      - { uri: 'https://grzegorzjuicesklep.herokuapp.com/' }
+      - { uri: 'https://grzegorzjuicesklep.herokuapp.com' }
       - { uri: 'http://hidden-savannah-53967.herokuapp.com/' }
       - { uri: 'https://demo.owasp-juice.shop' }
       - { uri: 'http://demo.owasp-juice.shop' }
