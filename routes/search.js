@@ -9,8 +9,6 @@ const challenges = require('../data/datacache').challenges
 
 module.exports = function searchProducts () {
   return (req, res, next) => {
-	  var sanitize = require('mongo-sanitize');
-	  var clean = sanitize(req.query);
     let criteria = req.query.q === 'undefined' ? '' : req.query.q || ''
     criteria = (criteria.length <= 200) ? criteria : criteria.substring(0, 200)
     models.sequelize.query(`SELECT * FROM Products WHERE ((name LIKE '%${criteria}%' OR description LIKE '%${criteria}%') AND deletedAt IS NULL) ORDER BY name`)
