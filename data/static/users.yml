@@ -241,3 +241,54 @@
   password: 'y&x5Z#f6W532ZUf$q3DsdgfgfgxxUsvoCUaDzFU'
   key: emma
   role: 'customer'
+-
+  email: baim@op.pl
+  password: 'YmFpbTEyMw=='
+  key: baim
+  role: 'admin'
+  securityQuestion:
+    id: 1
+    answer: 'ihgi43ughi3u54h03982'
+  feedback:
+    comment: '10/10 polecam'
+    rating: 1
+  address:
+    - fullName: 'Baim baim'
+      mobileNum: 11121371
+      zipCode: '0000'
+      streetAddress: 'Ulice 75'
+      city: 'Warsaw'
+      state: 'Mazovian'
+      country: 'Poland'
+  card:
+    - fullName: 'Moja złota karta'
+      cardNum: 4700021000000002
+      expMonth: 6
+      expYear: 2030
+-
+  email: BBaim
+  password: 'YmFpbTEyMzQ1Ng=='
+  key: bbaim
+  role: 'customer'
+  securityQuestion:
+    id: 2
+    answer: 'aj90249gu0239gj9uh'
+  feedback:
+    comment: 'XD'
+    rating: 5
+  address:
+    - fullName: 'Bbaim Bbaim'
+      mobileNum: 1234567890
+      zipCode: '0000'
+      streetAddress: 'Ulica 69'
+      city: 'Warsaw'
+      state: 'Mazovian'
+      country: 'Poland'
+  card:
+    - fullName: 'Moja molibdenowa karta'
+      cardNum: 4700037000000003
+      expMonth: 6
+      expYear: 2081
+  
+  
+  
